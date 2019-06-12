@@ -1,0 +1,31 @@
+{
+  "name": "ruturajmaniyar/yii2-audit-log",
+  "description": "Yii2 audit record and database changes details ",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "ruturaj",
+    "maniyar",
+    "ruturajmaniyar",
+    "audit",
+    "trail",
+    "auditlog",
+    ""
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Ruturaj Maniyar",
+      "email": "ruturaj.maniyar@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ruturajmaniyar\\mod\\audit\\": "src"
+    }
+  }
+}
