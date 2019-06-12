@@ -10,8 +10,7 @@
     "ruturajmaniyar",
     "audit",
     "trail",
-    "auditlog",
-    ""
+    "auditlog"
   ],
   "license": "BSD-3-Clause",
   "authors": [
@@ -27,5 +26,11 @@
     "psr-4": {
       "ruturajmaniyar\\mod\\audit\\": "src"
     }
-  }
+  },
+  "repositories":[
+    {
+      "type": "git",
+      "url": "https://github.com/ruturajmaniyar/yii2-audit-log.git"
+    }
+  ]
 }
