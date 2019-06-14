@@ -44,6 +44,9 @@
                                     'attribute' => 'audit_entry_timestamp',
                                     'headerOptions' => ['class' => 'text-center'],
                                     'contentOptions' => ['class' => 'text-center'],
+                                    'value' => function ($model) {
+                                        return Yii::$app->dateTimeConversion->convertTimestampToDateTime($model->audit_entry_timestamp);
+                                    }
                                 ],
                                 [
                                     'attribute' => 'audit_entry_model_name',
