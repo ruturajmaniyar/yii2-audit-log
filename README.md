@@ -26,10 +26,8 @@ or add
 
 to the require section of your `composer.json` file.
 
-
-
-
 #####Migration
+
 To run migration to create "tbl_audit_entry" table in your db.
 
 ```php
@@ -41,7 +39,9 @@ you can also import "tbl_audit_entry.sql" directly in your DB.
 ```
 
 #####Module
+
 Add Audit Entry module in your config file
+
 ```php
 ....
 'modules' => [
@@ -53,8 +53,11 @@ Add Audit Entry module in your config file
 ],
 ....
 ```
+
 #####Component
+
 Add DateTimeHelper components in your config file
+
 ```php
 ....
 'components' => [
@@ -68,6 +71,7 @@ Add DateTimeHelper components in your config file
 ```
 Usage
 -----
+
 Use get audit log activities or records, attached "AuditEntryBehaviors" with your models as belows:
 
 ```php
