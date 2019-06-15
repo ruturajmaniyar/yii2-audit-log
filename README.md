@@ -26,7 +26,7 @@ or add
 
 to the require section of your `composer.json` file.
 
-#####Migration
+##### Migration
 
 To run migration to create "tbl_audit_entry" table in your db.
 
@@ -38,7 +38,7 @@ or
 you can also import "tbl_audit_entry.sql" directly in your DB.
 ```
 
-#####Module
+##### Module
 
 Add Audit Entry module in your config file
 
@@ -54,7 +54,7 @@ Add Audit Entry module in your config file
 ....
 ```
 
-#####Component
+##### Component
 
 Add DateTimeHelper components in your config file
 
